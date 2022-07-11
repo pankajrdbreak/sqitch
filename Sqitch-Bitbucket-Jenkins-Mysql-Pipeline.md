@@ -11,6 +11,7 @@ Reading state information... Done
 The following additional packages will be installed:
   libalgorithm-c3-perl libappconfig-perl libb-hooks-endofscope-perl libb-hooks-op-check-perl libclass-c3-perl libclass-c3-xs-perl libclass-inspector-perl libclass-load-perl
 ```
+## Bitbucket
 2. Create Bitbucket repo for database project
 For this tutorial I have created below repository in bitbucket
 https://pankajrdbreak@bitbucket.org/pankajrdbreak/star_db.git
@@ -100,3 +101,22 @@ Total 9 (delta 1), reused 0 (delta 0)
 To https://bitbucket.org/pankajrdbreak/star_db.git
    fadc4a4..b7dacce  master -> master
    ```
+Note: sqitch.plan file will store all the things you did step by step
+```console
+pankaj@pankajv:~/star_db$ cat sqitch.plan
+%syntax-version=1.0.0
+%project=star_db
+%uri=https://pankajrdbreak@bitbucket.org/pankajrdbreak/star_db/
+
+sqitchuser 2022-07-11T06:35:48Z pankaj,,, <pankaj@pankajv> # Creates an application user.
+query 2022-07-11T06:40:21Z pankaj,,, <pankaj@pankajv> # General query
+```
+## Jenkins Setup
+9. Now we will configure Jenkins to push db changes from repo to mysql server
+-> go to your jenkins and add new item to create job
+![image](https://user-images.githubusercontent.com/76647860/178212831-7db1e2a7-0c23-45e2-b400-a24d7c443c7b.png)
+
+-> ![image](https://user-images.githubusercontent.com/76647860/178213122-e8d5aeff-cd63-4371-a1ef-c7387f517da8.png)
+
+-> ![image](https://user-images.githubusercontent.com/76647860/178213189-703f5fbc-6112-4736-97b3-19890858c7f4.png)
+
