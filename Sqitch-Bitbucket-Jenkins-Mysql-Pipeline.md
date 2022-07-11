@@ -25,4 +25,18 @@ Created deploy/
 Created revert/
 Created verify/
 ```
-
+5. By default, Sqitch will read sqitch.conf in the current directory for settings. But it will also read ~/.sqitch/sqitch.conf for user-specific settings. Since MySQL’s mysql client is not in the path on my system, let’s go ahead an tell it where to find the client on our computer.
+```console
+pankaj@pankajv:~$ sqitch config --user engine.mysql.client /usr/bin/mysql
+```
+And let’s also tell it who we are, since this data will be used in all of our projects:
+```console
+pankaj@pankajv:~$ sqitch config --user user.name 'pankaj vare'
+pankaj@pankajv:~$ sqitch config --user user.email 'pankaj.vare@samco.in'
+pankaj@pankajv:~$ cat ~/.sqitch/sqitch.conf
+[engine "mysql"]
+	client = /usr/bin/mysql
+[user]
+	name = pankaj vare
+	email = pankaj.vare@samco.in
+```
