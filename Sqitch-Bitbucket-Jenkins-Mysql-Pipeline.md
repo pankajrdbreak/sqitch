@@ -116,7 +116,16 @@ query 2022-07-11T06:40:21Z pankaj,,, <pankaj@pankajv> # General query
 -> go to your jenkins and add new item to create job
 ![image](https://user-images.githubusercontent.com/76647860/178212831-7db1e2a7-0c23-45e2-b400-a24d7c443c7b.png)
 
--> ![image](https://user-images.githubusercontent.com/76647860/178213122-e8d5aeff-cd63-4371-a1ef-c7387f517da8.png)
+![image](https://user-images.githubusercontent.com/76647860/178213122-e8d5aeff-cd63-4371-a1ef-c7387f517da8.png)
 
--> ![image](https://user-images.githubusercontent.com/76647860/178213189-703f5fbc-6112-4736-97b3-19890858c7f4.png)
+![image](https://user-images.githubusercontent.com/76647860/178465108-b7f21cb3-62ec-4ce2-84e2-52d8be8e0df4.png)
+
+![image](https://user-images.githubusercontent.com/76647860/178465185-2b20ef1b-b3b1-43c0-ab6c-ef1c34a057b7.png)
+
+![image](https://user-images.githubusercontent.com/76647860/178465264-2a667045-bf94-4dcd-a55c-4bd158e88eb1.png)
+
+![image](https://user-images.githubusercontent.com/76647860/178465356-d2a7fa03-5d8f-407a-9c4e-1a1465f6adb0.png)
+
+![image](https://user-images.githubusercontent.com/76647860/178465507-41fbf6f4-8ce1-435e-81ec-58b230a06dda.png)
+
 
